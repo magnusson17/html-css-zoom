@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, Roboto;
+}
+.first-container{
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-basis: 80%; */
+    background-color: aqua;
+}
+.container-1{
+    display: flex;
+    align-items: flex-end;
+    background-color: red;
+    width: 15vw;
+    height: 10vw;
+}
+.container-2__span{
+    display: block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+
+.footer__first-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.footer__div-left{
+    display: flex;
+    align-items: center;
+}
+.footer__div-left__column-odd{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer__div-center{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.footer__div-center__column{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer__div-right{
+    display: flex;
+}
