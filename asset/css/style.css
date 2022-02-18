@@ -8,16 +8,21 @@
 .color-green{
     color: green;
 }
+.prov{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    overflow-y: auto;
+}
 .first-container{
     height: calc(100vh - 50px);
-    overflow-y: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-basis: 80%; */
-    background-color: aqua;
-    position: relative;
+    flex-basis: 85%;
+    padding-top: 40px;
 }
 .container-0{
     position: absolute;
