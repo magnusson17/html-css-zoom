@@ -22,7 +22,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-basis: 85%;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 .container-0{
     position: absolute;
@@ -42,6 +42,7 @@
     background-image: url("https://picsum.photos/300/200");
     width: 15vw;
     height: 10vw;
+    margin: 5px;
 }
 .container-2__span{
     display: block;
