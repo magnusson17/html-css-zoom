@@ -8,14 +8,26 @@
 .color-green{
     color: green;
 }
-.prov{
+.main-div{
     display: flex;
     justify-content: center;
     position: relative;
     background-color: black;
     overflow-y: auto;
 }
-.first-container{
+.main-div__container-0{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: white;
+}
+.main-div__container-0__div{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4A4A4A;
+    display: inline-block;
+}
+.main-div__container-1{
     height: calc(100vh - 50px);
     display: flex;
     justify-content: space-around;
@@ -23,18 +35,6 @@
     flex-wrap: wrap;
     flex-basis: 85%;
     padding-top: 50px;
-}
-.container-0{
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    color: white;
-}
-.container-0__div{
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #4A4A4A;
-    display: inline-block;
 }
 .container-1{
     display: flex;
