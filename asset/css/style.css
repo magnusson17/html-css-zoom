@@ -30,10 +30,11 @@
 .main-div__container-1{
     height: calc(100vh - 50px);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    /* align-items: flex-start; */
+    align-content: flex-start;
     flex-wrap: wrap;
-    flex-basis: 85%;
+    /* flex-basis: 85%; */
     padding-top: 50px;
 }
 .container-1{
